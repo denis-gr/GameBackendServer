@@ -189,3 +189,5 @@ endif()
 if (USERVER_IS_THE_ROOT_PROJECT AND USERVER_FEATURE_CORE)
     add_subdirectory(samples)
 endif()
+
+add_subdirectory(GameBackendServer)

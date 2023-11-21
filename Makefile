@@ -56,7 +56,7 @@ cmake-debug cmake-release: cmake-%: build_%/Makefile
 # Build using cmake
 .PHONY: build-debug build-release
 build-debug build-release: build-%: cmake-%
-	@cmake --build build_$* -j $(NPROCS)
+	@cmake --build build_$* -j $(NPROCS) --target GameBackendServer
 
 # Test
 .PHONY: test-debug test-release

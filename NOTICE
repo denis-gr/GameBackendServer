@@ -1,0 +1,11 @@
+Apache Royale
+Copyright 2020 Apache Software Foundation
+
+This product includes software developed in
+Apache Software Foundation (http://www.apache.org/).
+
+All files, except the files in "GameBackendServer" and Makefile,
+Makefile.local, CmakeLists.txt, are copies of files
+from the userver (https://github.com/userver-framework/userver).
+Makefile, Makefile.local, CmakeLists.txt based
+on the userver (https://github.com/userver-framework/userver).
