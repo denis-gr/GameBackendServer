@@ -4,9 +4,9 @@ components_manager:
             dbconnection: mongodb://localhost:27071/DB
         dns-client: 
             fs-task-processor: fs-task-processor
-        handler-translations:
-            path: /
-            method: GET,PATCH
+        handler-user-registration:
+            path: /user/
+            method: POST
             task_processor: main-task-processor
         server:
             listener:
